@@ -19,3 +19,9 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+#Contract
+
+hello_contract/target
+hello_contract/Scarb.lock
+controller_contract

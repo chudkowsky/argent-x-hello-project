@@ -8,7 +8,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"abi:generate": "npx abi-wan-kanabi --input ./controller_contract/controller.contract_class.json --output ./src/common/types/controller_contract.ts"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
@@ -23,12 +24,15 @@
 		"globals": "^15.0.0",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
+		"starknet": "^6.11.0",
+		"starknetkit": "^1.1.9",
 		"svelte": "^5.0.0-next.1",
 		"svelte-check": "^3.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0-alpha.20",
-		"vite": "^5.0.3"
+		"vite": "^5.0.3",
+		"abi-wan-kanabi": "^2.2.2"
 	},
 	"type": "module"
 }
