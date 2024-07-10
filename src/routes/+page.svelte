@@ -2,6 +2,7 @@
     import Wallet from "./Wallet.svelte";
     import IncreaseBalance from "./IncreaseBalance.svelte";
     import FetchBalance from "./FetchBalance.svelte";
+	import Account from "./Account.svelte";
 </script>
 
 <svelte:head>
@@ -19,6 +20,9 @@
     </div>
     <div>
         <FetchBalance/>
+    </div>
+    <div>
+        <Account/>
     </div>
 	
 </section>

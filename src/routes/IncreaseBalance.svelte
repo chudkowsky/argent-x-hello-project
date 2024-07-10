@@ -1,5 +1,5 @@
 <script>
-	import { Account, CallData } from 'starknet';
+	import { Account, CallData,ec} from 'starknet';
 	import { wallet } from '../common/wallet.svelte';
     import { starknet } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/starknet.svelte';
     import { execute, makeCallParams } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/utils/utils';
@@ -12,7 +12,6 @@
       //let tx = starknet.contract.__execute__([{to:"0x52e3a5dad294fc5ad66f18d131967118d3e4030536ab2b941d71a5bb3cca6ed", calldata: ["0x4"],selector: "increase_balance"}])
       return tx;
     }
-  
     const handleButtonClick = async () => {
       try {
         const transaction = await increaseBalance();
