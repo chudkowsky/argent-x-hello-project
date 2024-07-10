@@ -1,38 +1,12 @@
-# create-svelte
+## RUNNING 
+To run project simply run `npm run dev`
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+connect to argent x, create standard account and go to sepolia network
+add funds 
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+useful:
+class hash and address of deployed controller account contract 
+class hash: 0x5f1d696987d433cffb98f7c90c739368aa17419daa00e3d88bc1157d0902aae
+contract_address: 0x77bd7816d78e24b8bab653bc3a45777ce773931493de998be4ff178e324f9a3
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
