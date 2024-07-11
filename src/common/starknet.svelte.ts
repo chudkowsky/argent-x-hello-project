@@ -1,5 +1,5 @@
 import { Contract, RpcProvider, type TypedContractV2 as StarknetTypedContract } from "starknet";
-import { ABI } from "/home/mateuszpc/dev/argent-x-hello-project/src/common/types/hello_contract";
+import { ABI } from "./types/hello_contract";
 export type TypedContract = StarknetTypedContract<typeof ABI>;
 
 export const createStarknet = async () => {

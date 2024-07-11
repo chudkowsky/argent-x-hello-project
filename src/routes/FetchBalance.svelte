@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { starknet } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/starknet.svelte';
-  import { execute, makeCallParams } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/utils/utils';
+  import { starknet } from '../common/starknet.svelte';
+  import { execute, makeCallParams } from '../common/utils/utils';
   import { onMount } from 'svelte';
 
   let balance : string | number | bigint | null = 0; // Reactive variable to hold the balance

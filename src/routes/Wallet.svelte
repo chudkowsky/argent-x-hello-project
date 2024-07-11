@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { wallet } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/wallet.svelte';
+	import { wallet } from '../common/wallet.svelte';
 
 	function shortAddress(address: string) {
 		return `${address.slice(0, 6)}...${address.slice(-4)}`;

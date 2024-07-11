@@ -1,5 +1,5 @@
-import { starknet } from "/home/mateuszpc/dev/argent-x-hello-project/src/common/starknet.svelte";
-import { wallet } from "/home/mateuszpc/dev/argent-x-hello-project/src/common/wallet.svelte";
+import { starknet } from "../starknet.svelte";
+import { wallet } from "../wallet.svelte";
 import type { AllowArray, Call, Invocation } from "starknet";
 
 export const execute = async (calls: AllowArray<Call>) => {

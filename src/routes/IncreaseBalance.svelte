@@ -1,8 +1,8 @@
 <script>
 	import { Account, CallData } from 'starknet';
 	import { wallet } from '../common/wallet.svelte';
-    import { starknet } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/starknet.svelte';
-    import { execute, makeCallParams } from '/home/mateuszpc/dev/argent-x-hello-project/src/common/utils/utils';
+    import { starknet } from '../common/starknet.svelte';
+    import { execute, makeCallParams } from '../common/utils/utils';
 
     let amount = 5; // Default value
 
